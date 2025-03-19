@@ -47,16 +47,10 @@ The dataset consists of SMS messages labeled as spam or ham. A common dataset us
   pip install -r requirements.txt
   ```
 
-  3. Run the training script:
-
-  ```sh
-  python src/train_model.py
-  ```
-
   4. Make predictions using:
 
   ```sh
-  python src/predict.py "Your message here"
+  python app.py
   ```
 
 ## 🖥️ Usage
