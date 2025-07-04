@@ -14,6 +14,8 @@
 
  4. Predicts whether a given SMS is spam or not
 
+ 5. **Exposes a POST API** for real-time predictions using Flask
+
 ## 🚀 Technologies Used
 
  * Python
@@ -27,6 +29,8 @@
  * NumPy
 
  * Matplotlib (for visualization)
+
+ * Flask
    
 ## 📊 Dataset
 
@@ -37,7 +41,7 @@ The dataset consists of SMS messages labeled as spam or ham. A common dataset us
   1. Clone this repository:
 
   ```sh
-  git clone https://github.com/yourusername/sms-spam-detection.git
+  git clone https://github.com/chaitanyakelkar/SMS-Spam-Detection.git
   cd sms-spam-detection
   ```
   
@@ -52,6 +56,14 @@ The dataset consists of SMS messages labeled as spam or ham. A common dataset us
   ```sh
   python app.py
   ```
+
+## 📡 API Usage
+
+  ### 🔗 Endpoint
+  `POST /`  
+  **Port:** `5000`  
+  **Content-Type:** `application/json`
+
 
 ## 🖥️ Usage
 
